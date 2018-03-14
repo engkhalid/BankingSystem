@@ -1,0 +1,816 @@
+                                       Account operations summary
+               IBAN: 12311001                                
+Account holder name: Adam                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  31|         JBB-CC|Account created with initial balance.             |     6,803 S.R.|     6,803 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    14,803 S.R.|
+| 121|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    14,753 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    22,753 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    30,753 S.R.| 
+debit card expiration day is: 211 
+The company he is working at is AlRajhi - ID#0 
+His phone number is 0524264490 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311002                                
+Account holder name: Adel                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   3|         JBB-CC|Account created with initial balance.             |     7,565 S.R.|     7,565 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     7,515 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    15,515 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    23,515 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    31,515 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    31,465 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is AlRajhi - ID#1 
+His phone number is 0545297947 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311003                                
+Account holder name: Adib                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  10|         JBB-CC|Account created with initial balance.             |     8,040 S.R.|     8,040 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     7,990 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    19,490 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    30,990 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    42,490 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    42,440 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is ARAMCO - ID#0 
+His phone number is 0594443821 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311004                                
+Account holder name: Ahmed                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  61|         JBB-CC|Account created with initial balance.             |     1,355 S.R.|     1,355 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    12,855 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    24,355 S.R.|
+| 151|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    24,305 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    35,805 S.R.| 
+debit card expiration day is: 241 
+The company he is working at is ARAMCO - ID#1 
+His phone number is 0588873485 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311005                                
+Account holder name: Ali                                     
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  16|         JBB-CC|Account created with initial balance.             |     9,657 S.R.|     9,657 S.R.|
+| 106|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     9,607 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    19,607 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    29,607 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    39,607 S.R.|
+| 196|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    39,557 S.R.| 
+debit card expiration day is: 286 
+The company he is working at is SEC - ID#0 
+His phone number is 0595274065 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311006                                
+Account holder name: Amine                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  70|         JBB-CC|Account created with initial balance.             |     8,673 S.R.|     8,673 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    20,173 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    31,673 S.R.|
+| 160|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    31,623 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    43,123 S.R.| 
+debit card expiration day is: 250 
+The company he is working at is ARAMCO - ID#2 
+His phone number is 0526205943 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311007                                
+Account holder name: Amir                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  48|         JBB-CC|Account created with initial balance.             |     2,645 S.R.|     2,645 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    14,145 S.R.|
+| 138|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    14,095 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    25,595 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    37,095 S.R.| 
+debit card expiration day is: 228 
+The company he is working at is ARAMCO - ID#3 
+His phone number is 0556267744 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311008                                
+Account holder name: Anas                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  11|         JBB-CC|Account created with initial balance.             |     1,818 S.R.|     1,818 S.R.|
+| 101|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     1,768 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    11,768 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    21,768 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    31,768 S.R.|
+| 191|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    31,718 S.R.| 
+debit card expiration day is: 281 
+The company he is working at is SEC - ID#1 
+His phone number is 0512477801 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311009                                
+Account holder name: Anouar                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   1|         JBB-CC|Account created with initial balance.             |     4,770 S.R.|     4,770 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     4,720 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    12,720 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    20,720 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    28,720 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    28,670 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is AlRajhi - ID#2 
+His phone number is 0513858504 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311010                                
+Account holder name: Ayoub                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  27|         JBB-CC|Account created with initial balance.             |     1,351 S.R.|     1,351 S.R.|
+| 117|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     1,301 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    12,801 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    24,301 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    35,801 S.R.| 
+debit card expiration day is: 207 
+The company he is working at is ARAMCO - ID#4 
+His phone number is 0576777248 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311011                                
+Account holder name: Azziz                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   7|         JBB-CC|Account created with initial balance.             |     7,977 S.R.|     7,977 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     7,927 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    19,927 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    31,927 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    43,927 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    43,877 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is STC - ID#0 
+His phone number is 0582740627 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311012                                
+Account holder name: Badr                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  91|         JBB-CC|Account created with initial balance.             |     2,103 S.R.|     2,103 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    12,103 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    22,103 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    32,103 S.R.|
+| 181|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    32,053 S.R.| 
+debit card expiration day is: 271 
+The company he is working at is SEC - ID#2 
+His phone number is 0583094283 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311013                                
+Account holder name: Billal                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  34|         JBB-CC|Account created with initial balance.             |     5,468 S.R.|     5,468 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    17,468 S.R.|
+| 124|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    17,418 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    29,418 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    41,418 S.R.| 
+debit card expiration day is: 214 
+The company he is working at is STC - ID#1 
+His phone number is 0500899967 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311014                                
+Account holder name: Chaker                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  81|         JBB-CC|Account created with initial balance.             |     4,687 S.R.|     4,687 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    12,687 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    20,687 S.R.|
+| 171|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    20,637 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    28,637 S.R.| 
+debit card expiration day is: 261 
+The company he is working at is AlRajhi - ID#3 
+His phone number is 0597679167 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311015                                
+Account holder name: Daoud                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  64|         JBB-CC|Account created with initial balance.             |     9,528 S.R.|     9,528 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    17,528 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    25,528 S.R.|
+| 154|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    25,478 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    33,478 S.R.| 
+debit card expiration day is: 244 
+The company he is working at is AlRajhi - ID#4 
+His phone number is 0520803274 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311016                                
+Account holder name: Fadel                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  97|         JBB-CC|Account created with initial balance.             |     4,784 S.R.|     4,784 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    16,784 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    28,784 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    40,784 S.R.|
+| 187|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    40,734 S.R.| 
+debit card expiration day is: 277 
+The company he is working at is STC - ID#2 
+His phone number is 0526004923 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311017                                
+Account holder name: Fahim                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   9|         JBB-CC|Account created with initial balance.             |     2,170 S.R.|     2,170 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     2,120 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    14,120 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    26,120 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    38,120 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    38,070 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is STC - ID#3 
+His phone number is 0539919541 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311018                                
+Account holder name: Fares                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   8|         JBB-CC|Account created with initial balance.             |     3,127 S.R.|     3,127 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     3,077 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    14,577 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    26,077 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    37,577 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    37,527 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is ARAMCO - ID#5 
+His phone number is 0541923558 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311019                                
+Account holder name: Farid                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  74|         JBB-CC|Account created with initial balance.             |     9,015 S.R.|     9,015 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    17,015 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    25,015 S.R.|
+| 164|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    24,965 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    32,965 S.R.| 
+debit card expiration day is: 254 
+The company he is working at is AlRajhi - ID#5 
+His phone number is 0561224380 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311020                                
+Account holder name: Fouad                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  17|         JBB-CC|Account created with initial balance.             |     3,140 S.R.|     3,140 S.R.|
+| 107|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     3,090 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    15,090 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    27,090 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    39,090 S.R.|
+| 197|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    39,040 S.R.| 
+debit card expiration day is: 287 
+The company he is working at is STC - ID#4 
+His phone number is 0510414494 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311021                                
+Account holder name: Habib                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  72|         JBB-CC|Account created with initial balance.             |     8,297 S.R.|     8,297 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    19,797 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    31,297 S.R.|
+| 162|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    31,247 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    42,747 S.R.| 
+debit card expiration day is: 252 
+The company he is working at is ARAMCO - ID#6 
+His phone number is 0506824797 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311022                                
+Account holder name: Hakim                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  86|         JBB-CC|Account created with initial balance.             |     2,405 S.R.|     2,405 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    13,905 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    25,405 S.R.|
+| 176|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    25,355 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    36,855 S.R.| 
+debit card expiration day is: 266 
+The company he is working at is ARAMCO - ID#7 
+His phone number is 0522698457 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311023                                
+Account holder name: Hamid                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   6|         JBB-CC|Account created with initial balance.             |     6,902 S.R.|     6,902 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     6,852 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    20,852 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    34,852 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    48,852 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    48,802 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is SABIC - ID#0 
+His phone number is 0507967029 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311024                                
+Account holder name: Hani                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  72|         JBB-CC|Account created with initial balance.             |     2,522 S.R.|     2,522 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    14,022 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    25,522 S.R.|
+| 162|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    25,472 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    36,972 S.R.| 
+debit card expiration day is: 252 
+The company he is working at is ARAMCO - ID#8 
+His phone number is 0539546906 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311025                                
+Account holder name: Hilal                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  85|         JBB-CC|Account created with initial balance.             |     3,564 S.R.|     3,564 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    15,564 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    27,564 S.R.|
+| 175|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    27,514 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    39,514 S.R.| 
+debit card expiration day is: 265 
+The company he is working at is STC - ID#5 
+His phone number is 0579554029 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311026                                
+Account holder name: Ismail                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  10|         JBB-CC|Account created with initial balance.             |     8,584 S.R.|     8,584 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     8,534 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    18,534 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    28,534 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    38,534 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    38,484 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is SEC - ID#3 
+His phone number is 0543222652 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311027                                
+Account holder name: Kamel                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  38|         JBB-CC|Account created with initial balance.             |     1,510 S.R.|     1,510 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    13,510 S.R.|
+| 128|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    13,460 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    25,460 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    37,460 S.R.| 
+debit card expiration day is: 218 
+The company he is working at is STC - ID#6 
+His phone number is 0589874162 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311028                                
+Account holder name: Karim                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  73|         JBB-CC|Account created with initial balance.             |     1,328 S.R.|     1,328 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    15,328 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    29,328 S.R.|
+| 163|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    29,278 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    43,278 S.R.| 
+debit card expiration day is: 253 
+The company he is working at is SABIC - ID#1 
+His phone number is 0592137229 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311029                                
+Account holder name: Khaled                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  75|         JBB-CC|Account created with initial balance.             |     9,660 S.R.|     9,660 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    17,660 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    25,660 S.R.|
+| 165|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    25,610 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    33,610 S.R.| 
+debit card expiration day is: 255 
+The company he is working at is AlRajhi - ID#6 
+His phone number is 0544788582 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311030                                
+Account holder name: Khalil                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  18|         JBB-CC|Account created with initial balance.             |     9,711 S.R.|     9,711 S.R.|
+| 108|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     9,661 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    17,661 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    25,661 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    33,661 S.R.|
+| 198|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    33,611 S.R.| 
+debit card expiration day is: 288 
+The company he is working at is AlRajhi - ID#7 
+His phone number is 0566774888 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311031                                
+Account holder name: Lotfi                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   5|         JBB-CC|Account created with initial balance.             |     2,770 S.R.|     2,770 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     2,720 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    10,720 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    18,720 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    26,720 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    26,670 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is AlRajhi - ID#8 
+His phone number is 0576703610 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311032                                
+Account holder name: Mabrouk                                 
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  41|         JBB-CC|Account created with initial balance.             |     8,007 S.R.|     8,007 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    19,507 S.R.|
+| 131|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    19,457 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    30,957 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    42,457 S.R.| 
+debit card expiration day is: 221 
+The company he is working at is ARAMCO - ID#9 
+His phone number is 0500390630 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311033                                
+Account holder name: Mahmoud                                 
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  41|         JBB-CC|Account created with initial balance.             |     6,918 S.R.|     6,918 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    20,918 S.R.|
+| 131|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    20,868 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    34,868 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    48,868 S.R.| 
+debit card expiration day is: 221 
+The company he is working at is SABIC - ID#2 
+His phone number is 0541372509 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311034                                
+Account holder name: Malik                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  21|         JBB-CC|Account created with initial balance.             |     6,746 S.R.|     6,746 S.R.|
+| 111|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     6,696 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    20,696 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    34,696 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    48,696 S.R.| 
+debit card expiration day is: 201 
+The company he is working at is SABIC - ID#3 
+His phone number is 0541956635 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311035                                
+Account holder name: Marwan                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  34|         JBB-CC|Account created with initial balance.             |     9,287 S.R.|     9,287 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    21,287 S.R.|
+| 124|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    21,237 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    33,237 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    45,237 S.R.| 
+debit card expiration day is: 214 
+The company he is working at is STC - ID#7 
+His phone number is 0560703297 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311036                                
+Account holder name: Mohamed                                 
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  91|         JBB-CC|Account created with initial balance.             |     4,801 S.R.|     4,801 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    14,801 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    24,801 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    34,801 S.R.|
+| 181|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    34,751 S.R.| 
+debit card expiration day is: 271 
+The company he is working at is SEC - ID#4 
+His phone number is 0567855608 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311037                                
+Account holder name: Moktar                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  10|         JBB-CC|Account created with initial balance.             |     9,399 S.R.|     9,399 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     9,349 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    19,349 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    29,349 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    39,349 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    39,299 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is SEC - ID#5 
+His phone number is 0597797379 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311038                                
+Account holder name: Nabil                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  24|         JBB-CC|Account created with initial balance.             |     7,216 S.R.|     7,216 S.R.|
+| 114|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     7,166 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    15,166 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    23,166 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    31,166 S.R.| 
+debit card expiration day is: 204 
+The company he is working at is AlRajhi - ID#9 
+His phone number is 0530868958 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311039                                
+Account holder name: Naser                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  22|         JBB-CC|Account created with initial balance.             |     4,986 S.R.|     4,986 S.R.|
+| 112|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     4,936 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    18,936 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    32,936 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    14,000 S.R.|    46,936 S.R.| 
+debit card expiration day is: 202 
+The company he is working at is SABIC - ID#4 
+His phone number is 0526964193 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311040                                
+Account holder name: Nassim                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   1|         JBB-CC|Account created with initial balance.             |     9,192 S.R.|     9,192 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     9,142 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    17,142 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    25,142 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    33,142 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    33,092 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is AlRajhi - ID#10 
+His phone number is 0515199663 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311041                                
+Account holder name: Omar                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  92|         JBB-CC|Account created with initial balance.             |     2,323 S.R.|     2,323 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    10,323 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    18,323 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    26,323 S.R.|
+| 182|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    26,273 S.R.| 
+debit card expiration day is: 272 
+The company he is working at is AlRajhi - ID#11 
+His phone number is 0507400301 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311042                                
+Account holder name: Othmane                                 
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|   8|         JBB-CC|Account created with initial balance.             |     6,405 S.R.|     6,405 S.R.|
+| 100|         JBB-CC|The debit card renewed.                           |       -50 S.R.|     6,355 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    17,855 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    29,355 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    40,855 S.R.|
+| 190|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    40,805 S.R.| 
+debit card expiration day is: 280 
+The company he is working at is ARAMCO - ID#10 
+His phone number is 0554657909 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311043                                
+Account holder name: Osama                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  58|         JBB-CC|Account created with initial balance.             |     2,881 S.R.|     2,881 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    14,381 S.R.|
+| 148|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    14,331 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    25,831 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    37,331 S.R.| 
+debit card expiration day is: 238 
+The company he is working at is ARAMCO - ID#11 
+His phone number is 0522727923 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311044                                
+Account holder name: Rachid                                  
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  92|         JBB-CC|Account created with initial balance.             |     3,440 S.R.|     3,440 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    13,440 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    23,440 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    33,440 S.R.|
+| 182|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    33,390 S.R.| 
+debit card expiration day is: 272 
+The company he is working at is SEC - ID#6 
+His phone number is 0591796459 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311045                                
+Account holder name: Rami                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  63|         JBB-CC|Account created with initial balance.             |     4,893 S.R.|     4,893 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    16,393 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    27,893 S.R.|
+| 153|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    27,843 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    11,500 S.R.|    39,343 S.R.| 
+debit card expiration day is: 243 
+The company he is working at is ARAMCO - ID#12 
+His phone number is 0512797392 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311046                                
+Account holder name: Rayan                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  50|         JBB-CC|Account created with initial balance.             |     6,767 S.R.|     6,767 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    18,767 S.R.|
+| 140|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    18,717 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    30,717 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    42,717 S.R.| 
+debit card expiration day is: 230 
+The company he is working at is STC - ID#8 
+His phone number is 0553781923 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311047                                
+Account holder name: Raad                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  65|         JBB-CC|Account created with initial balance.             |     5,862 S.R.|     5,862 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    15,862 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    25,862 S.R.|
+| 155|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    25,812 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    10,000 S.R.|    35,812 S.R.| 
+debit card expiration day is: 245 
+The company he is working at is SEC - ID#7 
+His phone number is 0515406722 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311048                                
+Account holder name: Salah                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  97|         JBB-CC|Account created with initial balance.             |     3,160 S.R.|     3,160 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    15,160 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    27,160 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    39,160 S.R.|
+| 187|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    39,110 S.R.| 
+debit card expiration day is: 277 
+The company he is working at is STC - ID#9 
+His phone number is 0556472866 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311049                                
+Account holder name: Sami                                    
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  32|         JBB-CC|Account created with initial balance.             |     7,483 S.R.|     7,483 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    15,483 S.R.|
+| 122|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    15,433 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    23,433 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |     8,000 S.R.|    31,433 S.R.| 
+debit card expiration day is: 212 
+The company he is working at is AlRajhi - ID#12 
+His phone number is 0513343832 
+========================================================================================================= 
+                                       Account operations summary
+               IBAN: 12311050                                
+Account holder name: Turki                                   
+     Account status: ACTIVE                                  
+
+| Day|            Via|Action description                                |         Amount|        Balance|
+---------------------------------------------------------------------------------------------------------
+|  77|         JBB-CC|Account created with initial balance.             |     4,625 S.R.|     4,625 S.R.|
+| 120|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    16,625 S.R.|
+| 150|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    28,625 S.R.|
+| 167|         JBB-CC|The debit card renewed.                           |       -50 S.R.|    28,575 S.R.|
+| 180|         JBB-C$|Deposit operation.                                |    12,000 S.R.|    40,575 S.R.| 
+debit card expiration day is: 257 
+The company he is working at is STC - ID#10 
+His phone number is 0591293105 
+========================================================================================================= 
