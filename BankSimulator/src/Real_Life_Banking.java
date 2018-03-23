@@ -74,8 +74,8 @@ public class Real_Life_Banking {
 				}
 			}
 			
-			//testing push
-			System.out.println("testing git");
+			// 
+			
 		}
 		
 		//Clearing the log file.

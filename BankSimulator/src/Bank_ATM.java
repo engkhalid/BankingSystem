@@ -20,7 +20,10 @@ public class Bank_ATM {
 	private int current_account_IBAN;
 	private int current_day;
 	private boolean serving_customer;
-	
+	private int withdrawal_amount_limit = 5000;
+	private int deposit_amount_limit = 20000;
+	private int transfer_amount_limit = 20000;
+
 	public Bank_ATM(String ATM_ID, Bank bank_link){
 		this.bank_link = bank_link;
 		this.ATM_ID = ATM_ID;
@@ -61,52 +64,60 @@ public class Bank_ATM {
 	
 	public void deposit(int deposit_amount){
 		if (serving_customer){
-			bank_link.deposit(current_account_IBAN, ATM_ID, current_day, deposit_amount);
-			print_message(String.format("%,d was added to your account",deposit_amount));
-			while(deposit_amount>=500){
-				deposit_amount -= 500;
-				count_500_bill++;
-			}
-			while(deposit_amount>=100){
-				deposit_amount -= 100;
-				count_100_bill++;
-			}
-			while(deposit_amount>=50){
-				deposit_amount -= 50;
-				count_50_bill++;
-			}
+			if(deposit_amount <= deposit_amount_limit){
+				if(bank_link.deposit(current_account_IBAN, ATM_ID, current_day, deposit_amount)){
+					print_message(String.format("%,d was added to your account",deposit_amount));
+					while(deposit_amount>=500){
+						deposit_amount -= 500;
+						count_500_bill++;
+					}
+					while(deposit_amount>=100){
+						deposit_amount -= 100;
+						count_100_bill++;
+					}
+					while(deposit_amount>=50){
+						deposit_amount -= 50;
+						count_50_bill++;
+					}
+					if(deposit_amount!= 0){print_message("The " + deposit_amount +" left is not accepted.");}
+				}
+			}else print_message("The maximum limit to deposit is " + deposit_amount_limit);
 		}else print_message("Please start the session first.");
 	}
 
 	public void withdrawal(int withdrawal_amount){
 		if (serving_customer){
-			if(bank_link.withdrawal(current_account_IBAN, ATM_ID, current_day, withdrawal_amount)){
-				print_message(String.format("%,d was deducted from your account",withdrawal_amount));
-				while(withdrawal_amount>=500){
-					withdrawal_amount -= 500;
-					count_500_bill--;
+			if(withdrawal_amount <= withdrawal_amount_limit){
+				if(bank_link.withdrawal(current_account_IBAN, ATM_ID, current_day, withdrawal_amount)){
+					print_message(String.format("%,d was deducted from your account",withdrawal_amount));
+					while(withdrawal_amount>=500){
+						withdrawal_amount -= 500;
+						count_500_bill--;
+					}
+					while(withdrawal_amount>=100){
+						withdrawal_amount -= 100;
+						count_100_bill--;
+					}
+					while(withdrawal_amount>=50){
+						withdrawal_amount -= 50;
+						count_50_bill--;
+					}
+				}else{
+					print_message("Sorry, you do NOT have engouh balance.");
 				}
-				while(withdrawal_amount>=100){
-					withdrawal_amount -= 100;
-					count_100_bill--;
-				}
-				while(withdrawal_amount>=50){
-					withdrawal_amount -= 50;
-					count_50_bill--;
-				}
-			}else{
-				print_message("Sorry, you do NOT have engouh balance.");
-			}
+			}else print_message("The maximum limit to withdraw is " + withdrawal_amount_limit);
 		}else print_message("Please start the session first.");	}
 	
 	public void wire_transfer_money(int receiver_account_IBAN, int transfer_amount){
 		if (serving_customer){
-			if(bank_link.wire_transfer_money(current_account_IBAN, ATM_ID, current_day, receiver_account_IBAN, transfer_amount)){
-				print_message(String.format("%,d was deducted from your account",transfer_amount));
-				print_message("The transaction has been made successfully to IBAN#" + receiver_account_IBAN);
-			}else{
-				print_message("Sorry, you do NOT have engouh balance.");
-			}
+			if(transfer_amount <= transfer_amount_limit){
+				if(bank_link.wire_transfer_money(current_account_IBAN, ATM_ID, current_day, receiver_account_IBAN, transfer_amount)){
+					print_message(String.format("%,d was deducted from your account",transfer_amount));
+					print_message("The transaction has been made successfully to IBAN#" + receiver_account_IBAN);
+				}else{
+					print_message("Sorry, you do NOT have engouh balance.");
+				}
+			}else print_message("The maximum limit to wire transfer is " + transfer_amount_limit);
 		}else print_message("Please start the session first.");	
 	}
 	
