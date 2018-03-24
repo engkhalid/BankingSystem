@@ -67,6 +67,8 @@ public class Bank_ATM {
 	public void deposit(int deposit_amount){
 		if (serving_customer){
 			if(deposit_amount <= deposit_amount_limit){
+				// there is a problem with depositing. It deposit then deduct from the machine. then reject the left money. The problem is that the left money is deposited.
+				// the same happens in other methods.
 				if(bank_link.deposit(current_account_IBAN, ATM_ID, current_day, deposit_amount)){
 					int money_left = deposit_amount;
 					while(money_left>=500){
