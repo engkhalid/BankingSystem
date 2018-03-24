@@ -11,6 +11,7 @@ public class Bank_Account {
 	private String account_history;
 	private String account_status;
 	private String debit_card_passward;
+	public enum account_Status { ACTIVE, INACTIVE }
 	
 	public Bank_Account(int IBAN, String customer_name, int initial_balance,int current_day, String debit_card_passward){
 		account_IBAN = IBAN;
@@ -18,7 +19,7 @@ public class Bank_Account {
 		account_balance = initial_balance;
 		account_creation_day = current_day;
 		debit_card_expiration_day = current_day + 90;
-		account_status = "ACTIVE";
+		account_status = account_Status.ACTIVE.name();
 		this.debit_card_passward = debit_card_passward;
 	}
 	

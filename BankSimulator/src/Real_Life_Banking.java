@@ -53,9 +53,13 @@ public class Real_Life_Banking {
 		
 		//Main life-cycle.
 		for ( int current_day = simulation_first_day ; current_day <= simulation_last_day ; current_day++){
+			System.out.println("================== Day# " + current_day + " ==================");
 			
+			//Bank daily check: debit card expiration date.
+			AlkhulayfiBANK.check_debit_card_expiration(current_day);
+			System.out.println("Done checking debit card expiration date.");
 			
-			//Salary day.
+			//Salary payment.
 			if(current_day % 30  == 0){
 				for (int current_company = 0 ; current_company < companies_name.length; current_company++){
 					ArrayList<Integer> employees_IBAN= employer_companies[current_company].getEmployees_IBAN();
@@ -67,14 +71,13 @@ public class Real_Life_Banking {
 			
 			//Renew expired debit-cards.
 			for (Bank_Account_Holder current_account_holder : Bank_Account_holders_DB){
-				if (current_account_holder.getBedit_card_expiration_date() <= current_day){
-					String bedit_card_passward = ""+rand(1000,9999);
+				if (current_account_holder.getDebit_card_expiration_date() < current_day){
+					String bedit_card_passward = "" + rand(1000,9999);
 					customer_care.renew_debit_card(current_account_holder.getBank_account_IBAN(), current_day, bedit_card_passward);
-					current_account_holder.setBedit_card_expiration_date(customer_care.get_debit_card_expiration_day(current_account_holder.getBank_account_IBAN()));
+					current_account_holder.setDebit_card_expiration_date(customer_care.get_debit_card_expiration_day(current_account_holder.getBank_account_IBAN()));
 				}
 			}
 			
-			// limit added.
 			
 		}
 		

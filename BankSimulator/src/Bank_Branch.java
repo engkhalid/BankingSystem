@@ -25,12 +25,9 @@ public class Bank_Branch {
 		if(!bank_link.change_account_holder_name(IBAN, add_Bank_Branch_ID(caller), current_day, account_holder_name)) return false;
 		return true;
 	}
-	public void change_account_status(int IBAN, String caller, int current_day, String new_status){
-		bank_link.change_account_status(IBAN, add_Bank_Branch_ID(caller), current_day, new_status);
-	}
-	public boolean renew_debit_card(int IBAN, String caller, int current_day,String entered_passward){
-		if(!bank_link.renew_debit_card(IBAN, add_Bank_Branch_ID(caller), current_day, entered_passward)) return false;
-		return true;
+	
+	public void renew_debit_card(int IBAN, String caller, int current_day,String entered_passward){
+		bank_link.renew_debit_card(IBAN, add_Bank_Branch_ID(caller), current_day, entered_passward);
 	}
 	
 	public int get_account_creation_day(int IBAN) {

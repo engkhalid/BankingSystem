@@ -5,6 +5,7 @@ public class Bank {
 	private ArrayList<Bank_Account> Bank_Account_DB;
 	private int deduction_fee = 50;
 	private int bank_SWIFT_code = 123;
+	public enum account_Status { ACTIVE, INACTIVE }
 
 	public Bank(){
 		Bank_Account_DB = new ArrayList<Bank_Account>(10);
@@ -39,9 +40,19 @@ public class Bank {
 		return null;
 	}	
 	
+	public void check_debit_card_expiration(int current_day) {
+		for (Bank_Account current_Bank_Account : Bank_Account_DB){
+			if (current_day >= current_Bank_Account.get_debit_card_expiration_day() & 
+					current_Bank_Account.get_account_status() == account_Status.ACTIVE.name()){
+				current_Bank_Account.change_account_status(account_Status.INACTIVE.name());
+				add_new_action(current_Bank_Account.get_account_IBAN(), "BANK", "Debit card expired. Your account is on hold.", current_day, 0);
+			}
+		}
+	}
+	
 	public boolean deposit(int IBAN, String caller, int current_day,  int deposit_amount){
 		Bank_Account requested_account = get_Bank_Account(IBAN);
-		if (Objects.equals(requested_account.get_account_status(),"INACTIVE")){
+		if (Objects.equals(requested_account.get_account_status(),account_Status.INACTIVE.name())){
 			return false;
 		}else{
 			requested_account.deposit(deposit_amount);
@@ -51,7 +62,7 @@ public class Bank {
 	}
 	public boolean withdrawal(int IBAN, String caller, int current_day, int withdrawal_amount){
 		Bank_Account requested_account = get_Bank_Account(IBAN);
-		if (Objects.equals(requested_account.get_account_status(),"INACTIVE")){
+		if (Objects.equals(requested_account.get_account_status(),account_Status.INACTIVE.name())){
 			return false;
 		}else{
 			if (!requested_account.withdrawal(withdrawal_amount)){
@@ -67,8 +78,8 @@ public class Bank {
 									   int receiver_account_IBAN, int transfer_amount){
 		Bank_Account requested_account = get_Bank_Account(IBAN);
 		Bank_Account receiver_account = get_Bank_Account(receiver_account_IBAN);
-		if (Objects.equals(requested_account.get_account_status(),"INACTIVE") | 
-				Objects.equals(receiver_account.get_account_status(),"INACTIVE")){
+		if (Objects.equals(requested_account.get_account_status(),account_Status.INACTIVE.name()) | 
+				Objects.equals(receiver_account.get_account_status(),account_Status.INACTIVE.name())){
 			return false;
 		}else{
 			if (!requested_account.withdrawal(transfer_amount)){
@@ -85,7 +96,7 @@ public class Bank {
 	}
 	public boolean change_account_holder_name(int IBAN, String caller, int current_day, String account_holder_name){
 		Bank_Account requested_account = get_Bank_Account(IBAN);
-		if (Objects.equals(requested_account.get_account_status(),"INACTIVE")){
+		if (Objects.equals(requested_account.get_account_status(),account_Status.INACTIVE.name())){
 			return false;
 		}else{
 			requested_account.change_account_holder_name(account_holder_name);
@@ -98,16 +109,12 @@ public class Bank {
 		requested_account.change_account_status(new_status);
 		add_new_action(IBAN, caller, "Changing account status.", current_day, 0);
 	}
-	public boolean renew_debit_card(int IBAN, String caller, int current_day,String entered_passward){
+	public void renew_debit_card(int IBAN, String caller, int current_day,String entered_passward){
 		Bank_Account requested_account = get_Bank_Account(IBAN);
-		if (Objects.equals(requested_account.get_account_status(),"INACTIVE")){
-			return false;
-		}else{
-			requested_account.renew_debit_card(current_day, entered_passward);
-			requested_account.deduction(deduction_fee);
-			add_new_action(IBAN, caller, "The debit card renewed.", current_day, -deduction_fee);
-			return true;
-		}
+		requested_account.renew_debit_card(current_day, entered_passward);
+		requested_account.deduction(deduction_fee);
+		requested_account.change_account_status(account_Status.ACTIVE.name());
+		add_new_action(IBAN, caller, "The debit card renewed.", current_day, -deduction_fee);
 	}
 	
 	public boolean check_passward(int IBAN, String entered_passward){

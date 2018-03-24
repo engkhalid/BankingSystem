@@ -2,8 +2,8 @@
 public class Bank_Account_Holder {
 	private String name;
 	private int bank_account_IBAN;
-	private String bedit_card_passward;
-	private int bedit_card_expiration_date;
+	private String debit_card_passward;
+	private int debit_card_expiration_date;
 	private String phone_number; 
 	private String company_working_in;
 	private int employee_ID;
@@ -12,8 +12,8 @@ public class Bank_Account_Holder {
 							   String phone_number, String company_working_in,int employee_ID){
 		setName(name);
 		setBank_account_IBAN(bank_account_IBAN);
-		setBedit_card_passward(bedit_card_passward);
-		setBedit_card_expiration_date(bedit_card_expiration_date);
+		setDebit_card_passward(bedit_card_passward);
+		setDebit_card_expiration_date(bedit_card_expiration_date);
 		setPhone_number(phone_number);
 		set_company_working_in(company_working_in, employee_ID);
 	}
@@ -44,20 +44,20 @@ public class Bank_Account_Holder {
 		this.bank_account_IBAN = bank_account_IBAN;
 	}
 
-	public String getBedit_card_passward() {
-		return bedit_card_passward;
+	public String getDebit_card_passward() {
+		return debit_card_passward;
 	}
 
-	public void setBedit_card_passward(String bedit_card_passward) {
-		this.bedit_card_passward = bedit_card_passward;
+	public void setDebit_card_passward(String debit_card_passward) {
+		this.debit_card_passward = debit_card_passward;
 	}
 
-	public int getBedit_card_expiration_date() {
-		return bedit_card_expiration_date;
+	public int getDebit_card_expiration_date() {
+		return debit_card_expiration_date;
 	}
 
-	public void setBedit_card_expiration_date(int bedit_card_expiration_date) {
-		this.bedit_card_expiration_date = bedit_card_expiration_date;
+	public void setDebit_card_expiration_date(int debit_card_expiration_date) {
+		this.debit_card_expiration_date = debit_card_expiration_date;
 	}
 
 	public String getPhone_number() {

@@ -26,13 +26,10 @@ public class Bank_Customer_Care {
 			print_message("Sorry, your account is inactive.");
 		else print_message("Your name was successfully changed.");
 	}
-	public void change_account_status(int IBAN, int current_day, String new_status){
-		bank_branch_link.change_account_status(IBAN, customer_care_ID, current_day, new_status);
-	}
+	
 	public void renew_debit_card(int IBAN, int current_day,String entered_passward){
-		if(!bank_branch_link.renew_debit_card(IBAN, customer_care_ID, current_day, entered_passward)) 
-			print_message("Sorry, your account is inactive.");
-		else print_message("Your debit card was successfully renewed.");
+		bank_branch_link.renew_debit_card(IBAN, customer_care_ID, current_day, entered_passward);
+		print_message("Your debit card was successfully renewed.");
 	}
 	public int get_account_IBAN(String account_holder_name) {
 		return bank_branch_link.get_account_IBAN(account_holder_name);
