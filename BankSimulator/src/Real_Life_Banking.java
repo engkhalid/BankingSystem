@@ -51,7 +51,7 @@ public class Real_Life_Banking {
 			System.out.println("Error! while opening the file.");
 		}
 		
-		//Main life-cycle.
+		//================================================== Main life-cycle. ==================================================
 		for ( int current_day = simulation_first_day ; current_day <= simulation_last_day ; current_day++){
 			System.out.println("================== Day# " + current_day + " ==================");
 			
@@ -79,6 +79,7 @@ public class Real_Life_Banking {
 			}
 
 		}
+		//======================================================================================================================
 		
 		//Clearing the log file.
 		try {
