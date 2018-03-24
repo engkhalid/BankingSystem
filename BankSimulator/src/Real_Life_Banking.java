@@ -77,8 +77,7 @@ public class Real_Life_Banking {
 					current_account_holder.setDebit_card_expiration_date(customer_care.get_debit_card_expiration_day(current_account_holder.getBank_account_IBAN()));
 				}
 			}
-			
-			
+
 		}
 		
 		//Clearing the log file.
