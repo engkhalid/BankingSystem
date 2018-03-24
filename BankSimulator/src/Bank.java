@@ -5,13 +5,13 @@ public class Bank {
 	private ArrayList<Bank_Account> Bank_Account_DB;
 	private int deduction_fee = 50;
 	private int bank_SWIFT_code = 123;
-	public enum account_Status { ACTIVE, INACTIVE }
-
+	private enum account_Status { ACTIVE, INACTIVE }
+	private int cash_flow;
+	
 	public Bank(){
 		Bank_Account_DB = new ArrayList<Bank_Account>(10);
 	}
 	
-	private int new_IBAN(int beanch_ID_plus_account_ID){return (bank_SWIFT_code*100000)+beanch_ID_plus_account_ID;}
 	
 	public int create_Bank_Account( int beanch_ID_plus_account_ID, String caller, String account_holder_name, 
 										int account_initial_balance, int current_day, String debit_card_passward){
@@ -20,17 +20,21 @@ public class Bank {
 		Bank_Account new_Account = new Bank_Account(IBAN,account_holder_name,account_initial_balance, current_day,debit_card_passward);
 		Bank_Account_DB.add(new_Account);
 		add_new_action(IBAN, caller, "Account created with initial balance.", current_day, account_initial_balance);
+		deposit_money_to_Bank(account_initial_balance);
 		return IBAN;		
 	}
 	
 	//------------------------------------------------------------------------------------------------
+	private void deposit_money_to_Bank(int new_deposit) { cash_flow += new_deposit; }
 	
+	private void withdrawal_money_from_Bank(int new_deposit) { cash_flow += new_deposit; }
+	
+	private int new_IBAN(int beanch_ID_plus_account_ID){return (bank_SWIFT_code*100000)+beanch_ID_plus_account_ID;}
+
 	private String new_action_format(String caller, String action, int day, int amount,int balance){
 		return String.format("|%4d|%15s|%-50s|%,10d S.R.|%,10d S.R.|", day,caller,action,amount,balance); 
 	}
 	
-	//------------------------------------------------------------------------------------------------
-			
 	private Bank_Account get_Bank_Account(int IBAN){
 		for (Bank_Account current_Bank_Account : Bank_Account_DB){
 			if (IBAN == current_Bank_Account.get_account_IBAN()){
@@ -39,6 +43,24 @@ public class Bank {
 		}
 		return null;
 	}	
+	
+	private void add_new_action(int IBAN,String caller, String new_action, int day, int amount){
+		Bank_Account requested_account = get_Bank_Account(IBAN);
+		requested_account.add_new_action(new_action_format(caller, new_action, day, amount,get_account_balance(IBAN)));
+	}
+	
+	private Bank_Account get_Bank_Account(String account_holder_name){
+		for (Bank_Account current_Bank_Account : Bank_Account_DB){
+			if (Objects.equals(account_holder_name,current_Bank_Account.get_account_holder_name())){
+				return current_Bank_Account;
+			}
+		}
+		return null;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	
+	public int get_cash_flow() {return cash_flow;}
 	
 	public void check_debit_card_expiration(int current_day) {
 		for (Bank_Account current_Bank_Account : Bank_Account_DB){
@@ -57,6 +79,7 @@ public class Bank {
 		}else{
 			requested_account.deposit(deposit_amount);
 			add_new_action(IBAN, caller, "Deposit operation.", current_day, deposit_amount);
+			deposit_money_to_Bank(deposit_amount);
 			return true;
 		}
 	}
@@ -69,6 +92,7 @@ public class Bank {
 				return false;
 			}else{
 				add_new_action(IBAN, caller, "Withdrawal operation.", current_day, -withdrawal_amount);
+				withdrawal_money_from_Bank(withdrawal_amount);
 				return true;
 			}
 		}
@@ -121,10 +145,7 @@ public class Bank {
 		return get_Bank_Account(IBAN).check_passward(entered_passward);
 	}
 
-	private void add_new_action(int IBAN,String caller, String new_action, int day, int amount){
-		Bank_Account requested_account = get_Bank_Account(IBAN);
-		requested_account.add_new_action(new_action_format(caller, new_action, day, amount,get_account_balance(IBAN)));
-	}
+	
 	
 	public int get_account_balance(int IBAN) {
 		Bank_Account requested_account = get_Bank_Account(IBAN);
@@ -189,14 +210,7 @@ public class Bank {
 	//-----------------------------------------------------------------------------------------
 	
 	
-	private Bank_Account get_Bank_Account(String account_holder_name){
-		for (Bank_Account current_Bank_Account : Bank_Account_DB){
-			if (Objects.equals(account_holder_name,current_Bank_Account.get_account_holder_name())){
-				return current_Bank_Account;
-			}
-		}
-		return null;
-	}
+	
 	
 	public void deposit(String account_holder_name, int deposit_amount){
 		Bank_Account requested_account = get_Bank_Account(account_holder_name);

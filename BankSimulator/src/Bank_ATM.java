@@ -43,10 +43,11 @@ public class Bank_ATM {
 		if(bank_link.get_account_Status(IBAN) == null){
 			print_message(" There is no account with the entered IBAN.");	
 		}else if(bank_link.get_account_Status(IBAN) == "INACTIVE"){
-			
+			print_message("Sorry, your account is inactive.");
 		}else{
 			if(bank_link.check_passward(IBAN, entered_passward)){
 				serving_customer = true;
+				current_account_IBAN = IBAN;
 			}else{
 				print_message("Wrong passward!");
 			}
@@ -60,29 +61,32 @@ public class Bank_ATM {
 		if (serving_customer){
 			print_message(String.format("Your account balance is %,d ",bank_link.get_account_balance(current_account_IBAN)));
 		}else print_message("Please start the session first.");
+		quit_current_session();
 	}
 	
 	public void deposit(int deposit_amount){
 		if (serving_customer){
 			if(deposit_amount <= deposit_amount_limit){
 				if(bank_link.deposit(current_account_IBAN, ATM_ID, current_day, deposit_amount)){
-					print_message(String.format("%,d was added to your account",deposit_amount));
-					while(deposit_amount>=500){
-						deposit_amount -= 500;
+					int money_left = deposit_amount;
+					while(money_left>=500){
+						money_left -= 500;
 						count_500_bill++;
 					}
-					while(deposit_amount>=100){
-						deposit_amount -= 100;
+					while(money_left>=100){
+						money_left -= 100;
 						count_100_bill++;
 					}
-					while(deposit_amount>=50){
-						deposit_amount -= 50;
+					while(money_left>=50){
+						money_left -= 50;
 						count_50_bill++;
 					}
-					if(deposit_amount!= 0){print_message("The " + deposit_amount +" left is not accepted.");}
+					if(money_left!= 0){print_message("The " + money_left +" left is not accepted.");}
+					print_message(String.format("%,d was added to your account",(deposit_amount-money_left)));
 				}
 			}else print_message("The maximum limit to deposit is " + deposit_amount_limit);
 		}else print_message("Please start the session first.");
+		quit_current_session();
 	}
 
 	public void withdrawal(int withdrawal_amount){
@@ -106,7 +110,9 @@ public class Bank_ATM {
 					print_message("Sorry, you do NOT have engouh balance.");
 				}
 			}else print_message("The maximum limit to withdraw is " + withdrawal_amount_limit);
-		}else print_message("Please start the session first.");	}
+		}else print_message("Please start the session first.");	
+		quit_current_session();
+	}
 	
 	public void wire_transfer_money(int receiver_account_IBAN, int transfer_amount){
 		if (serving_customer){
@@ -119,6 +125,7 @@ public class Bank_ATM {
 				}
 			}else print_message("The maximum limit to wire transfer is " + transfer_amount_limit);
 		}else print_message("Please start the session first.");	
+		quit_current_session();
 	}
 	
 	public String account_last_5_operations(){

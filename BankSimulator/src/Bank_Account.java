@@ -11,7 +11,7 @@ public class Bank_Account {
 	private String account_history;
 	private String account_status;
 	private String debit_card_passward;
-	public enum account_Status { ACTIVE, INACTIVE }
+	private enum account_Status { ACTIVE, INACTIVE }
 	
 	public Bank_Account(int IBAN, String customer_name, int initial_balance,int current_day, String debit_card_passward){
 		account_IBAN = IBAN;
